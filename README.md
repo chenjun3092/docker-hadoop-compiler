@@ -3,9 +3,9 @@
 $ bash build.sh
 ```
 
-### Build the specific version of hadoop
+### Build the specific version of hadoop, the def is 2.7.2
 ```
-$ bash compile_hadoop.sh
+$ bash compile_hadoop.sh 2.6.5
 ```
 
 ### Built hadoop file
