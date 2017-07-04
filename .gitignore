@@ -1,0 +1,6 @@
+*.gz
+*.tar
+hadoop-2.6.5-src.tar.gz
+hadoop-2.7.2-src.tar.gz
+m2
+output
