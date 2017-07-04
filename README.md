@@ -5,7 +5,7 @@ $ docker build -t hadoop-compiler .
 
 ### Build the specific version of hadoop
 ```
-$ docker run -v $(PWD)/output:/root/output hadoop-compiler 2.7.2
+$ docker run -v $(pwd)/:/hadoop/ -v $(pwd)/m2:/root/.m2/ hadoop-compiler 2.7.2
 ```
 
 ### Built hadoop file
