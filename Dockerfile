@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Sangwon Lee <gamzabaw@gmail.com>
+MAINTAINER chenjun "jun.chen@youruncloud.com"
 
 RUN apt-get update &&     \
     apt-get install -y    \
@@ -29,9 +29,9 @@ RUN cd / &&                  \
     rm -rf protobuf-2.5.0 && \
     rm protobuf-2.5.0.tar.gz
 
-ADD compile_script.sh /root/
-RUN chmod a+x /root/compile_script.sh
+#ADD compile_script.sh /hadoop/
+#RUN chmod a+x /hadoop/compile_script.sh
 
-WORKDIR /root
+WORKDIR /hadoop
 
 ENTRYPOINT ["./compile_script.sh"]
