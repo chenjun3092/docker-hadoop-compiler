@@ -11,5 +11,5 @@ $ bash compile_hadoop.sh 2.6.5
 ### Built hadoop file
 ```
 $ ls ./output
-hadoop-2.7.2.tar.gz
+hadoop-2.6.5.tar.gz
 ```
