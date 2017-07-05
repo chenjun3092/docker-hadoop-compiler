@@ -1,5 +1,8 @@
 *.gz
 *.tar
-dist
-m2
-output
+dist/
+m2/
+output/
+repo-src/
+hadoop-2.7.2-src
+hadoop-2.6.5-src
